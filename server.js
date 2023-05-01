@@ -30,7 +30,7 @@ app.post('/api/users', function (req, res) {
 })
 
 app.listen(3001, () => {
-  console.log('Server running...')
+  console.log('Server running...,,')
   mongoose.set('strictQuery', true)
   // connect to mongodDB
   mongoose.connect(process.env.MONGO_URI, {
